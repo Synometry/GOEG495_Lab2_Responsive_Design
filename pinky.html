@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cat Collation</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/pinky.css">
+        <script src="js/vtabs.js"></script>
+    </head>
+    <body>
+        <div id="nav">
+            <a href="index.html">main</a>
+            <a class="active" href="pinky.html">pinky</a>
+            <a>squeaky</a>
+            <a>mema</a>
+        </div>
+        <div id="content">
+            <h2>Info:</h2>
+            <dl>
+                <dt>Name:</dt>
+                <dd>Pinky</dd>
+                <dt>Color:</dt>
+                <dd>Orange</dd>
+                <dt>Size:</dt>
+                <dd>Large</dd>
+                <dt>Sign:</dt>
+                <dd>Leo</dd>
+                <dt>Likes:</dt>
+                <dd>Mac 'n Cheese, Beaches, Walkable Cities, Exploring</dd>
+                <dt>Dislikes:</dt>
+                <dd>Getting his paws dirty</dd>
+            </dl>
+            <h2>Bonus: Vertical Tabs & MOVIE Below</h2>
+        </div>
+        <div id="bonus">
+            <div class="tabs">
+                <button class="tablink" onclick="openContent(event, 'Lace')">Shoelace</button>
+                <button class="tablink" onclick="openContent(event, 'Tie')">Tie</button>
+                <button class="tablink" onclick="openContent(event, 'Banana')">Banana</button>
+                <button class="tablink" onclick="openContent(event, 'Roll')">Featured Roll</button>
+            </div>
+            <img id="Lace" class="vtabs" src="img/IMG_2267.JPG" alt="lace">
+            <img id="Tie" class="vtabs" src="img/IMG_4771.png" alt="tie">
+            <img id="Banana" class="vtabs" src="img/IMG_4541.JPG" alt="banana">
+            <video id="Roll" class="vtabs" controls muted autoplay>
+                <source src="img/IMG_2156.MOV">
+                Video tag unsupported :(
+            </video>
+        </div>
+    </body>
+
+</html>

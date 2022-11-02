@@ -1,0 +1,35 @@
+#bonus {
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.tabs {
+    width: 40%;
+    float: left;
+}
+
+.tabs > button {
+    display: block;
+    background-color: inherit;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tabs > button:hover {
+    background-color: rgb(93, 184, 153);
+}
+
+.tabs > button.active {
+    background-color: rgb(59, 116, 97);
+}
+
+img, video {
+    display: none;
+    max-height: 300px;
+    float: left;
+}
